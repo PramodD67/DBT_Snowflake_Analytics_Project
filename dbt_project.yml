@@ -40,3 +40,15 @@ models:
     # Applies to all files under models/example/
     example:
       +materialized: table
+
+
+
+vars:
+  country: "India"
+  countryId: "SIN"
+  limit_rows: 5
+  book_id: "00551"
+  genre_var: 'Novel'
+  
+
+  

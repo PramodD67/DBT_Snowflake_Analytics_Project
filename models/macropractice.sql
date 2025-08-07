@@ -1,0 +1,1 @@
+select  {{uppermac('author')}} from {{ref("referencemodel")}}
