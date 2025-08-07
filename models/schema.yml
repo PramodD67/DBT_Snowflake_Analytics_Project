@@ -1,0 +1,8 @@
+sources:
+  - name: library
+    database: db_mydb
+    schema: dbt_pd
+    tables:
+      - name: books
+      - name: borrowed_books
+      - name: members
