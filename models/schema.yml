@@ -6,3 +6,22 @@ sources:
       - name: books
       - name: borrowed_books
       - name: members
+
+models:
+  - name: Generic_tests_practice
+    columns:
+      - name: First_name
+        tests:
+          - not_null
+          - unique
+      - name: birth_day
+        tests:
+          - not_null
+      - name: SALUTATION
+        tests:
+          - accepted_values:
+              values:
+                - ['Mr.','Miss','Dr.','Mrs.']
+    
+        
+  
